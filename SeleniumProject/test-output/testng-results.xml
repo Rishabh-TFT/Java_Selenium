@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="105677" started-at="2020-05-07T19:59:28Z" finished-at="2020-05-07T20:01:14Z">
+    <groups>
+    </groups>
+    <test name="ParallelTest 2" duration-ms="50696" started-at="2020-05-07T19:59:28Z" finished-at="2020-05-07T20:00:19Z">
+      <class name="tests.TestHomePage">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:tests.TestHomePage@1ef45e3]" name="beforemethod" is-config="true" duration-ms="38263" started-at="2020-05-07T19:59:28Z" finished-at="2020-05-07T20:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test_01()[pri:0, instance:tests.TestHomePage@1ef45e3]" name="test_01" duration-ms="11273" started-at="2020-05-07T20:00:06Z" finished-at="2020-05-07T20:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:tests.TestHomePage@1ef45e3]" name="aftermethod" is-config="true" duration-ms="1095" started-at="2020-05-07T20:00:18Z" finished-at="2020-05-07T20:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- tests.TestHomePage -->
+    </test> <!-- ParallelTest 2 -->
+    <test name="ParallelTest 1" duration-ms="105677" started-at="2020-05-07T19:59:28Z" finished-at="2020-05-07T20:01:14Z">
+      <class name="tests.TestWebsite">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:tests.TestWebsite@6fa38a]" name="beforemethod" is-config="true" duration-ms="30661" started-at="2020-05-07T19:59:28Z" finished-at="2020-05-07T19:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test_01()[pri:0, instance:tests.TestWebsite@6fa38a]" name="test_01" duration-ms="45090" started-at="2020-05-07T19:59:59Z" finished-at="2020-05-07T20:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:tests.TestWebsite@6fa38a]" name="aftermethod" is-config="true" duration-ms="846" started-at="2020-05-07T20:00:44Z" finished-at="2020-05-07T20:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:tests.TestWebsite@6fa38a]" name="beforemethod" is-config="true" duration-ms="4685" started-at="2020-05-07T20:00:45Z" finished-at="2020-05-07T20:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test_02()[pri:0, instance:tests.TestWebsite@6fa38a]" name="test_02" duration-ms="23231" started-at="2020-05-07T20:00:49Z" finished-at="2020-05-07T20:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:tests.TestWebsite@6fa38a]" name="aftermethod" is-config="true" duration-ms="1096" started-at="2020-05-07T20:01:13Z" finished-at="2020-05-07T20:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- tests.TestWebsite -->
+    </test> <!-- ParallelTest 1 -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

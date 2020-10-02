@@ -1,0 +1,29 @@
+package myPackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverFactory {
+
+	WebDriver create(String type) throws IllegalAccessException{
+		WebDriver driver;
+		
+		switch(type) {
+		  
+		
+		case "Firefox":
+			  driver = new FirefoxDriver();
+			  break;
+		case "Chrome":
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sachin\\workspace\\CareOf\\Driver\\chromedriver.exe");
+			  driver = new ChromeDriver();
+			  break;
+		default:
+			 throw new IllegalAccessException();
+		}
+		
+		return driver;
+	
+	}
+}
